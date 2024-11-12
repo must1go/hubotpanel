@@ -18,6 +18,7 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
         .login-container h2 {
             margin-bottom: 20px;
@@ -86,11 +87,7 @@
         var password = document.getElementById('password').value;
         if (password === "Hulo123@") {
             document.querySelector('.loading-overlay').style.display = 'flex';
-            setTimeout(function() {
-                alert("");
-                document.querySelector('.loading-overlay').style.display = 'none';
-            }, 10000);
-            return false;
+            return false; // Formun gönderilmesini engellemek için
         }
         return true;
     }
