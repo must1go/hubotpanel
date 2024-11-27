@@ -87,6 +87,9 @@
         var password = document.getElementById('password').value;
         if (password === "Hulo123@") {
             document.querySelector('.loading-overlay').style.display = 'flex';
+            setTimeout(function() {
+                window.location.href = "panel.html";
+            }, 5000); // 5-10 saniye bekleme
             return false; // Formun gönderilmesini engellemek için
         }
         return true;
