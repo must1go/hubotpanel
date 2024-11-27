@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            height: 100vh;
+            padding: 20px;
+        }
+        .sidebar h2 {
+            color: #fff;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 15px 0;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .menu a:hover {
+            color: #1e90ff;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .balance {
+            font-size: 1.5em;
+            color: green;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li><a href="#">Account Management</a></li>
+                <li><a href="#">Activation Wizard</a></li>
+                <li><a href="#">Bot Settings</a></li>
+                <li><a href="#">Loading...</a></li>
+                <li><a href="#">Loading...</a></li>
+                <li><a href="#">Loading...</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="balance">Total Balance: $1,310,490</div>
+        </div>
+    </div>
+</body>
+</html>
+
