@@ -47,6 +47,33 @@
             color: green;
             margin-bottom: 20px;
         }
+        .account-management {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .account-management h3 {
+            margin-top: 0;
+        }
+        .account-management ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .account-management li {
+            margin: 10px 0;
+        }
+        .account-management button {
+            padding: 10px 15px;
+            background-color: #1e90ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .account-management button:hover {
+            background-color: #005f99;
+        }
     </style>
 </head>
 <body>
@@ -64,8 +91,39 @@
         </div>
         <div class="main-content">
             <div class="balance">Total Balance: $1,310,490</div>
+            <div class="account-management">
+                <h3>Account Management Actions</h3>
+                <ul>
+                    <li>
+                        <button>Activate Account</button>
+                    </li>
+                    <li>
+                        <button>Deactivate Account</button>
+                    </li>
+                    <li>
+                        <button>Add Account</button>
+                    </li>
+                    <li>
+                        <button>Remove Account</button>
+                    </li>
+                    <li>
+                        <button>Restrict Account</button>
+                    </li>
+                    <li>
+                        <button>Lift Account Restriction</button>
+                    </li>
+                    <li>
+                        <button>Reset Password</button>
+                    </li>
+                    <li>
+                        <button>View Account Details</button>
+                    </li>
+                    <li>
+                        <button>Update Account Settings</button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
 </html>
-
